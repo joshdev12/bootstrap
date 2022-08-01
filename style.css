@@ -54,6 +54,15 @@
     width: 50%;
 }
 
+.last-section-container{
+    background-color: #bdbdbda3;
+}
+
+.bottom-logo a{
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #2e2020;
+    font-family: monospace;
+}
 
 
 
@@ -87,4 +96,6 @@
     .input-group span{
         display: none;
     }
+
+   
 }
