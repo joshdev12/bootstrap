@@ -4,6 +4,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.second-nav-menu li a{
+    font-family: ui-rounded;
+    font-size: 14px;
+}
+
 .header-container{
     width: 100%;
 }
@@ -58,14 +63,40 @@
     width: 50%;
 }
 
+form .subscribe-group {
+    width: 40%;
+}
+
+.inner-shape{
+    background: #00000054;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    border-bottom: 38px solid #c9c9c975;
+    position: absolute;
+    left: 4%;
+}
+
 .last-section-container{
     background-color: #bdbdbda3;
+}
+
+.bottom-logo {
+    width: 100%;
+   
 }
 
 .bottom-logo a{
     font-size: 35px;
     text-shadow: 2px 2px 2px #2e2020;
     font-family: monospace;
+}
+
+.bottom-logo a img {
+    width: 161px;
+    padding: 0 7%;
+    padding-left: 0;
 }
 
 @media (max-width:768px){
@@ -97,6 +128,12 @@
    
 }
 
+@media (max-width:490px){
+    .sub .btn{
+        width: 100%;
+    }
+}
+
 @media(max-width:600px){
     .email{
         width: 100%;
@@ -123,6 +160,58 @@
     top: 50%;
     width: 100%;
 
+}
+
+.category h4 {
+    font-family: emoji;
+}
+
+.categories-menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories-menu li a{
+    font-family: cursive;
+}
+
+.sort-by h4 {
+    font-family: emoji;
+}
+.sort-by-menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sort-by-menu li a{
+    font-family: cursive;
+}
+
+@media(max-width:700px){
+    .product-container-display{
+        margin: 0 20%;
+    }
+    
+    .bottom-logo {
+        width: 100%;
+        padding: 0px 8%;
+    }
+}
+
+
+@media(max-width:450px){
+    .card {
+        width: 270px;
+      
+    }
+}
+
+
+@media(width:540px){
+    .card {
+        width: 437px;
+        margin: auto;
+    }
 }
 
 
